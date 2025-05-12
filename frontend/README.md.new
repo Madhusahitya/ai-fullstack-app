@@ -1,0 +1,57 @@
+# AI Fullstack App Frontend
+
+This is the frontend for the AI Fullstack App, built with React and TypeScript.
+
+## Features
+
+- Modern UI with Tailwind CSS
+- Real-time chat interface
+- Integration with FastAPI backend
+- Error handling and loading states
+- Responsive design
+
+## Setup
+
+### Prerequisites
+
+- Node.js 14+ and npm
+
+### Installation
+
+1. Install dependencies:
+   ```
+   npm install
+   ```
+
+2. Start the development server:
+   ```
+   npm start
+   ```
+
+The app will be available at http://localhost:3000
+
+## Backend Connection
+
+The frontend expects the backend to be running at http://localhost:8000. You can change this by setting the `REACT_APP_API_URL` environment variable.
+
+## Available Scripts
+
+- `npm start` - Starts the development server
+- `npm test` - Runs tests
+- `npm run build` - Builds the app for production
+- `npm run eject` - Ejects from Create React App
+
+## Project Structure
+
+- `src/components/` - React components
+- `src/services/` - API services
+- `src/App.tsx` - Main application component
+
+## Technologies Used
+
+- React 19
+- TypeScript
+- Tailwind CSS
+- Axios
+- Headless UI
+- Heroicons
